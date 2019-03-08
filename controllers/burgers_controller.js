@@ -23,7 +23,7 @@ router.post("/api/burgers", function(req, res) {
     req.body.burger_name
   ], function(data) {
     // Send back the ID of the new quote
-    res.direct("/");
+    res.redirect("/");
   });
 });
 

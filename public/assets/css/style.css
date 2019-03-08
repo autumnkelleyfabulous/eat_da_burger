@@ -4,12 +4,17 @@ html {
    }
    body {
     width: 75%;
-   margin: 0 auto; 
-
+     margin: 0 auto;
    display: flex;
    min-height: 100vh;
    flex-direction: column;
-   background-color: white;
+   background-color: rgb(121, 18, 238);
+
+}
+
+#da_cute_burger {
+    display: block;
+     margin: auto;
 }
    h1 {
     text-align: center;
@@ -17,8 +22,9 @@ html {
     font-size: 100px;
     margin: 50px;
 }
+
 .burgerAvailable {
-    font-family:"cursive"
+    font-family:"cursive";
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -27,13 +33,13 @@ html {
     width: 100%;
     margin: 10px;
     padding: 10px;
-    background-color: #b7ffc2;
+    background-color: #f717f7;
     border: none;
 }
 
 h2 {
     text-align: center;
-   font-family: "cursive"
+   font-family: "cursive";
    font-size: 40px;
    margin: 50px;
 }
@@ -43,7 +49,7 @@ h2 {
 }
 
 .addBurgerButton {
-   font-family: "cursive"
+   font-family: "cursive";
    font-weight: normal;
    font-size: 20px;
    text-align: center;
@@ -52,7 +58,7 @@ h2 {
    width: 100%;
    margin: 0;
    padding: 10px;
-   background-color: #FFC04C;
+   background-color: pink ;
    border: none;
 }
 
