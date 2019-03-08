@@ -1,6 +1,3 @@
-var PORT = process.env.PORT || 3000;
-   app.listen(PORT, function() {
-
 
 var express = require("express");
 var router = express.Router();
@@ -20,7 +17,7 @@ router.get("/", function(req, res) {
   });
 });
 
-router.post("/api/burgers", function(req, res) {
+router.post("/burgers", function(req, res) {
  burger.create([
     "burger_name"
   ], [
@@ -31,7 +28,7 @@ router.post("/api/burgers", function(req, res) {
   });
 });
 
-router.put("/api/burgers/:id", function(req, res) {
+router.put("/burgers/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
 //   console.log("condition", condition);
