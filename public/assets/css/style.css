@@ -1,20 +1,61 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+html {
+    background-image: url("./img/burger.png");
+    background-color: #88117e;
+   }
+   body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+   h1 {
+    text-align: center;
+    font-family: "cursive";
+    font-size: 100px;
+    margin: 50px;
+}
+.burgerAvailable {
+    font-family:"cursive"
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b7ffc2;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+   font-family: "cursive"
+   font-size: 40px;
+   margin: 50px;
+}
+
+.formContainer {
+   background-color: rgb(196, 5, 94);
+}
+
+.addBurgerButton {
+   font-family: "cursive"
+   font-weight: normal;
+   font-size: 20px;
+   text-align: center;
+
+   border-radius: 25px;
+   width: 100%;
+   margin: 0;
+   padding: 10px;
+   background-color: #FFC04C;
+   border: none;
+}
+
+.addBurgerButton:active {
+  background-color: rgb(219, 16, 141);
+}
